@@ -49,50 +49,51 @@ public class FirstSpringAppApplication {
 
 		// Dependency injection - loose coupling example with setter injection
 
-		Employee emp2 = new Employee();
-		emp2.setId(234);
-		emp2.setName("Vijay k");
-		emp2.setEmail("vijayk@gmail.com");
-		emp2.setDesignation("tester");
+//		Employee emp2 = new Employee();
+//		emp2.setId(234);
+//		emp2.setName("Vijay k");
+//		emp2.setEmail("vijayk@gmail.com");
+//		emp2.setDesignation("tester");
+//
+//		Address adrs2 = new Address();
+//		adrs2.setDoorNo(333);
+//		adrs2.setStreetName("old street");
+//		adrs2.setCity("old city");
+//		adrs2.setState("old state");
+//		adrs2.setPinCode(112244);
+//
+//		emp2.setAddress(adrs2);
+//
+//		System.out.println("emp2 is : " + emp2);
+//		System.out.println("adrs2 is : " + adrs2);
+//
+//		emp2.getAddress().setDoorNo(666);
+//		emp2.getAddress().setStreetName("new street");
+//		emp2.getAddress().setCity("new city");
+//		emp2.getAddress().setState("new state");
+//		emp2.getAddress().setPinCode(110056);
+//
+//		System.out.println("emp2 after adrs2 change is : " + emp2);
+//		System.out.println("adrs2 after adrs2 change is : " + adrs2);
+//
+//		// Dependency injection - loose coupling example with constructor injection
+//
+//		Address adrs3 = new Address(234, "old street", "old city", "old state", 110045);
+//
+//		Employee emp3 = new Employee(345, "Rahul k", "rahulk@gmail.com", "tester", adrs3);
+//
+//		System.out.println("emp3 is : " + emp3);
+//		System.out.println("adrs3 is : " + adrs3);
+//
+//		emp3.getAddress().setDoorNo(567);
+//		emp3.getAddress().setStreetName("abc street");
+//		emp3.getAddress().setCity("new city");
+//		emp3.getAddress().setState("new state");
+//		emp3.getAddress().setPinCode(110056);
+//
+//		System.out.println("emp3 after adrs3 change is : " + emp3);
+//		System.out.println("adrs3 after adrs3 change is : " + adrs3);
 
-		Address adrs2 = new Address();
-		adrs2.setDoorNo(333);
-		adrs2.setStreetName("old street");
-		adrs2.setCity("old city");
-		adrs2.setState("old state");
-		adrs2.setPinCode(112244);
-
-		emp2.setAddress(adrs2);
-
-		System.out.println("emp2 is : " + emp2);
-		System.out.println("adrs2 is : " + adrs2);
-
-		emp2.getAddress().setDoorNo(666);
-		emp2.getAddress().setStreetName("new street");
-		emp2.getAddress().setCity("new city");
-		emp2.getAddress().setState("new state");
-		emp2.getAddress().setPinCode(110056);
-
-		System.out.println("emp2 after adrs2 change is : " + emp2);
-		System.out.println("adrs2 after adrs2 change is : " + adrs2);
-
-		// Dependency injection - loose coupling example with constructor injection
-
-		Address adrs3 = new Address(234, "old street", "old city", "old state", 110045);
-
-		Employee emp3 = new Employee(345, "Rahul k", "rahulk@gmail.com", "tester", adrs3);
-
-		System.out.println("emp3 is : " + emp3);
-		System.out.println("adrs3 is : " + adrs3);
-
-		emp3.getAddress().setDoorNo(567);
-		emp3.getAddress().setStreetName("abc street");
-		emp3.getAddress().setCity("new city");
-		emp3.getAddress().setState("new state");
-		emp3.getAddress().setPinCode(110056);
-
-		System.out.println("emp3 after adrs3 change is : " + emp3);
-		System.out.println("adrs3 after adrs3 change is : " + adrs3);
 	}
 
 }
